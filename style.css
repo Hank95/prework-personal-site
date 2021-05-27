@@ -6,6 +6,7 @@
 html {
   margin: 0;
   padding: 0;
+  background-color: rgb(238, 244, 255);
 }
 
 h1 {
@@ -49,7 +50,7 @@ a {
   text-align: center;
 }
 .grid-item-sub {
-  font-family: "Playfair Display", serif;
+  font-family: "Cinzel", serif;
   font-weight: 900;
   font-size: 30px;
   margin-top: 20px;
@@ -62,11 +63,17 @@ a {
   margin-top: 40px;
   margin-left: 5px;
 }
+.link:hover {
+  color: rgba(225, 71, 54, 1);
+}
 .arr {
   margin-top: 30px;
 }
 .burger {
   margin-right: 10px;
+}
+.burger:hover {
+  color: rgba(225, 71, 54, 1);
 }
 .night-mode {
   margin-right: 10px;
@@ -106,4 +113,39 @@ a {
 }
 #currently h2 {
   margin-bottom: 1vh;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgb(238, 244, 255);
+}
+
+#has-been {
+  width: 50%;
+  margin: 20px 10px 20px 25%;
+  padding: 20px;
+}
+
+.child {
+  width: 50%;
+  margin: 20px 10px 20px 25%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+}
+.child h3 {
+  margin: 5px;
+}
+.child ul li {
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+#foot-logo {
 }
