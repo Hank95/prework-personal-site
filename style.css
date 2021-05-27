@@ -1,21 +1,81 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   font-family: "Roboto", sans-serif;
 }
+html {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: "Cinzel", serif;
 }
 
 h2 {
-  font-size: 5vh;
+  font-size: 45px;
   /* font-family: "Playfair Display", serif; */
 }
-
+h3 {
+  font-size: 27px;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 #menu {
   position: absolute;
   top: 0;
   left: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr;
+}
+.grid-item {
+  height: 100px;
+  width: auto;
+  position: relative;
+  align-content: center;
+  text-align: center;
+}
+.grid-item-sub {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.link {
+  padding: 5px;
+  background-color: rgba(48, 226, 24, 0);
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+.arr {
+  margin-top: 30px;
+}
+.burger {
+  margin-right: 10px;
+}
+.night-mode {
+  margin-right: 10px;
+}
+.day-mode {
+  margin-right: 10px;
+}
+.hidden {
+  display: none;
 }
 #landing {
   width: 100%;
@@ -28,6 +88,7 @@ h2 {
   height: 100%;
   width: 100%;
 }
+
 #currently {
   position: absolute;
   top: 35%;
@@ -41,5 +102,8 @@ h2 {
   border-radius: 0px;
 }
 #currently h1 {
-  font-size: 10vh;
+  font-size: 85px;
+}
+#currently h2 {
+  margin-bottom: 1vh;
 }
